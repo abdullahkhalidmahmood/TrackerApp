@@ -110,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
 
             } else {
                 Toast.makeText(this, "Unable to get your location", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "test", Toast.LENGTH_SHORT).show();
             }
         }
     }
